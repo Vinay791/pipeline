@@ -1,9 +1,14 @@
 pipeline {
     agent any
     stages {
-        stage("hello"){
+        stage("1"){
             steps{
                 echo "welcome to jenkins pipeline"
+            }
+        }
+        stage("2"){
+            steps{
+                echo "starting jenkins"
             }
         }
     }
